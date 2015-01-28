@@ -1,4 +1,4 @@
-# Challenge Set 1
+Challenge Set 1
 ===
 FizzBuzz (Difficulty: Easy)
 --------
