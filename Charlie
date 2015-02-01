@@ -1,6 +1,5 @@
 #Programming Challenge 1 (FizzBuzz) 
 #Made by: justcharlie
-#Also, #FuckJosh
 
 for num in range(1, 101):
 	if (num % 3 == 0 and num % 5 == 0):
