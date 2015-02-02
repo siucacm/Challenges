@@ -47,7 +47,7 @@ public class AyushProgChall1 {
 						return true;
 				}
 				else if(Letters[mid]=='}'){
-					if(Letters[(mid-1)/(2)]==('{'))
+					if(Letters[(mid-1)]==('{'))
 						return true;
 					else if(Letters[mid+1]==('{'))
 						return true;
