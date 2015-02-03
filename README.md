@@ -26,6 +26,8 @@ git checkout master
 git merge upstream/master
 ```
 
-Taken from: 
+ - **Reference**
+ 
 https://help.github.com/articles/configuring-a-remote-for-a-fork/
+
 https://help.github.com/articles/syncing-a-fork/
