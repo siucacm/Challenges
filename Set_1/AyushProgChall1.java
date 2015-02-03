@@ -38,7 +38,7 @@ public class AyushProgChall1 {
 				positive=0;
 				return false;}
 			if(positive==1){
-				if(mid%(2)==1)
+				if(input.length%(2)==1)
 					return false;
 				else if(Letters[mid]=='{'){
 					if(Letters[mid-1]==('}'))
