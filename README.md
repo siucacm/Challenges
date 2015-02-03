@@ -15,3 +15,17 @@ git commit -m "your commit comment"
 git push
 ```
  - **Submit pull request on github.com**
+
+How to Sync your Fork
+--------
+```
+cd Challenges
+git remote add upstream https://github.com/siucacm/Challenges.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+Taken from: 
+https://help.github.com/articles/configuring-a-remote-for-a-fork/
+https://help.github.com/articles/syncing-a-fork/
