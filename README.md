@@ -26,7 +26,7 @@ git checkout master
 git merge upstream/master
 ```
 
- - **Reference**
+ **Reference**
  
 https://help.github.com/articles/configuring-a-remote-for-a-fork/
 
