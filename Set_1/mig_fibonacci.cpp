@@ -12,8 +12,6 @@ const int maximumN = 93;
 
 int main()
 {
-	//alert: spec is wrong on first few values of fibo sequence
-	//fibo sequence is actually f(0) = 0, f(1) = 1, f(2) = 1, ...
 	fibocache.push_back(0);
 	fibocache.push_back(1);
 
