@@ -1,7 +1,5 @@
-#Fibonacci Solution in Python 2.7.9
-#Written by Joshua Sonnenberg
-
 def fib(a):
+	a += 1
 	x,y = 1,1
 	for i in range(a-1):
 		x,y = y,x+y
