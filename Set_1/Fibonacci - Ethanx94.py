@@ -6,7 +6,6 @@ Given the number n, print the nth value of the Fibonacci sequence.
 
 NOTICE: Since F(1) = 0, this sequence begins with 0. Read carefully!
 '''
-import sys
 
 def fib(n):
 	#F(1) = 0
@@ -22,8 +21,19 @@ def fib(n):
 
 def main():
 	#Given the number n
-	n = int(input("Provide nth value of Fib sequence: "))
+	n = int(input("Provide a 1-based index of the Fibonacci sequence: "))
 	#Print the nth value of the Fibonacci sequence
-	print(fib(n))
+	print("Value at index", n, "is:", fib(n))
+	
+	#View rest of sequence
+	q = input("View entire sequence? ")
+	if(q == 'y' or q == 'Y' or q == "yes" or q == "Yes"):
+		print("[", end="")
+		for x in range (n, 1, -1):
+			print(fib(x), ", ", end="", sep='')
+		
+		#Sequence always ends with 0
+		#Outside the for loop for proper formatting	
+		print("0]")
 
 main()
