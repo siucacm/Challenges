@@ -1,19 +1,19 @@
 Challenge Set 2
 ===
-Problem One(Easy): Array Rotation
+Array Rotation (Difficulty: Easy)
 --------
 The problem is to rotate a given array to the right by n steps.
 
 For example: Given [1,2,3] and n=1, you should return [3,2,1]
 
 
-Problem Two(Medium): Coin Change
+Coin Change (Difficulty: Medium)
 --------
 For the given value n, write a function that will find how many ways that one can make change for 
 the given amount.
 
 
-Problem Three(Tricky): Josephus Problem
+Josephus Problem (Difficulty: Tricky)
 --------
 There are people standing in a circle waiting to be executed. The counting out begins at some point
 in the circle and proceeds around the circle in a fixed direction. In each step, a certain number of 
