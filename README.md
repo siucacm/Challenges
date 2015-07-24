@@ -1,4 +1,6 @@
 # Challenges
+
+[![Join the chat at https://gitter.im/siucacm/Challenges](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/siucacm/Challenges?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Here ACM members will post their solutions to the weekly programming challenges.
 
 How to Submit
